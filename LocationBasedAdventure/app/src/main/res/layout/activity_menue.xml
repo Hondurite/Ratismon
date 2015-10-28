@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/characterImageMenue"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/characterNameMenue"
+        android:layout_marginBottom="15dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/characterNameMenue"
+        android:gravity="center"
+        android:layout_marginBottom="7dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/characterNameMenue"
+        android:layout_marginTop="8dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stamina"
+        android:id="@+id/TextViewStamina"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/strength"
+        android:id="@+id/TextViewStrength"
+        android:layout_toRightOf="@+id/TextViewStamina"
+        android:layout_toEndOf="@+id/TextViewStamina"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dexterity"
+        android:id="@+id/TextViewDexterity"
+        android:layout_toRightOf="@+id/TextViewStrength"
+        android:layout_toEndOf="@+id/TextViewStrength"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intelligence"
+        android:id="@+id/TextViewIntelligence"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/TextViewDexterity"
+        android:layout_toEndOf="@+id/TextViewDexterity"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextViewStaminaValue"
+        android:layout_below="@+id/TextViewStamina"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:layout_alignLeft="@+id/TextViewStamina"
+        android:layout_alignStart="@+id/TextViewStamina"
+        android:layout_toLeftOf="@+id/TextViewStrength"
+        android:layout_toStartOf="@+id/TextViewStrength" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextViewStrengthValue"
+        android:layout_below="@+id/TextViewStrength"
+
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:layout_alignRight="@+id/TextViewStrength"
+        android:layout_alignEnd="@+id/TextViewStrength"
+        android:layout_alignLeft="@+id/TextViewStrength"
+        android:layout_alignStart="@+id/TextViewStrength" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextViewDexterityValue"
+        android:gravity="center"
+        android:layout_alignTop="@+id/TextViewStrengthValue"
+        android:layout_alignLeft="@+id/TextViewDexterity"
+        android:layout_alignStart="@+id/TextViewDexterity"
+        android:layout_alignRight="@+id/TextViewDexterity"
+        android:layout_alignEnd="@+id/TextViewDexterity" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextViewIntelligenceValue"
+        android:gravity="center"
+        android:layout_alignTop="@+id/TextViewDexterityValue"
+        android:layout_alignLeft="@+id/TextViewIntelligence"
+        android:layout_alignStart="@+id/TextViewIntelligence"
+        android:layout_alignRight="@+id/TextViewIntelligence"
+        android:layout_alignEnd="@+id/TextViewIntelligence" />
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonInventar"
+        android:id="@+id/ButtonInventar"
+        android:background="@color/light_blue_1"
+        android:layout_above="@+id/ButtonRanking"
+        android:layout_alignRight="@+id/ButtonRanking"
+        android:layout_alignEnd="@+id/ButtonRanking"
+        android:layout_alignLeft="@+id/ButtonRanking"
+        android:layout_alignStart="@+id/ButtonRanking" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonRanking"
+        android:id="@+id/ButtonRanking"
+        android:background="@color/light_blue_1"
+        android:layout_above="@+id/ButtonEinstellungen"
+        android:layout_alignLeft="@+id/ButtonEinstellungen"
+        android:layout_alignStart="@+id/ButtonEinstellungen"
+        android:layout_alignRight="@+id/ButtonEinstellungen"
+        android:layout_alignEnd="@+id/ButtonEinstellungen"
+        android:layout_marginTop="10dp"
+       />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonEinstellungen"
+        android:id="@+id/ButtonEinstellungen"
+        android:background="@color/light_blue_1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonMap"
+        android:id="@+id/ButtonBackToMap"
+        android:background="@color/light_blue_2"
+
+        android:minWidth="50dp"
+        android:minHeight="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>

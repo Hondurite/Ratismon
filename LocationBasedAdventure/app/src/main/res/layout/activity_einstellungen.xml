@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonEinstellungen"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="25sp"
+        android:textColor="@color/dark_blue"
+        android:id="@+id/textViewEinstellungen"
+        android:layout_marginBottom="40dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/angemeldet_bleiben"
+        android:id="@+id/checkBoxAngemeldetBleibenEinstellungen"
+        android:layout_below="@+id/textViewEinstellungen"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="25dp"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hilfe"
+        android:id="@+id/buttonHilfe"
+        android:layout_marginBottom="20dp"
+
+        android:background="@color/light_blue_1"
+        android:layout_below="@+id/checkBoxAngemeldetBleibenEinstellungen"
+        android:layout_alignLeft="@+id/checkBoxAngemeldetBleibenEinstellungen"
+        android:layout_alignStart="@+id/checkBoxAngemeldetBleibenEinstellungen"
+        android:layout_alignRight="@+id/checkBoxAngemeldetBleibenEinstellungen"
+        android:layout_alignEnd="@+id/checkBoxAngemeldetBleibenEinstellungen" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonBackEinstellungen"
+        android:text="@string/zurueck"
+        android:adjustViewBounds="false"
+        android:background="@color/light_blue_2"
+        android:minWidth="50dp"
+        android:minHeight="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

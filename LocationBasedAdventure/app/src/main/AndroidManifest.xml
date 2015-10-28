@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.markus.locationbasedadventure" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!--
+ The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/monster"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".AnmeldenActivity"
+            android:label="@string/title_activity_anmelden" >
+        </activity>
+        <activity
+            android:name=".RegistrierenActivity"
+            android:label="@string/title_activity_registrieren" >
+        </activity>
+        <activity
+            android:name=".CreateCharacterActivity"
+            android:label="@string/title_activity_chreateCharacter" >
+        </activity>
+        <activity
+            android:name=".BattleActivity"
+            android:label="@string/title_activity_battle" >
+        </activity>
+        <activity
+            android:name=".MenueActivity"
+            android:label="@string/title_activity_menue" >
+        </activity>
+        <activity
+            android:name=".RankingActivity"
+            android:label="@string/title_activity_ranking" >
+        </activity>
+        <activity
+            android:name=".EinstellungenActivity"
+            android:label="@string/title_activity_einstellungen" >
+        </activity>
+        <activity
+            android:name=".InventarActivity"
+            android:label="@string/title_activity_inventar" >
+        </activity>
+        <activity
+            android:name=".WeaponChangeActivity"
+            android:label="@string/title_activity_weaponChange" >
+        </activity>
+        <activity
+            android:name=".ArmorChangeActivity"
+            android:label="@string/title_activity_armorChange" >
+        </activity>
+        <activity android:name=".HilfeActivity"
+            android:label="@string/title_activity_hilfe" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" >
+        </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/title_activity_splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Ratismon</string>
+    <string name="notregisteredText">Doch noch nicht registriert?</string>
+    <string name="alreadyregisteredText">Sie sind bereits registriert?</string>
+    <string name="charakterErstellen">Charakter erstellen</string>
+    <string name="anmelden">Anmelden</string>
+    <string name="registrieren">Registrieren</string>
+    <string name="action_settings">Settings</string>
+    <string name="angemeldet_bleiben">Angemeldet bleiben</string>
+    <string name="passwortWrong">Das eingegebene Passwort ist nicht korrekt.</string>
+    <string name="passwortShort">"Ihr Passwort muss mindestens 7 Zeichen lang sein."</string>
+    <string name="emailNotRegistered">Die eingegebene E-Mail-Adresse ist noch nicht registriert!</string>
+    <string name="emailAlreadyRegistered">Die eingegebene E-Mail-Adresse ist bereits registriert!</string>
+    <string name="emailWrong">"Ungültige Emailadresse!"</string>
+    <string name="buttonStats">Stats</string>
+    <string name="buttonInventar">Inventar</string>
+    <string name="buttonRanking">Ranking</string>
+    <string name="buttonEinstellungen"> Einstellungen </string>
+    <string name="achievements">Achievements</string>
+    <string name="buttonMap">Map</string>
+    <string name="level">Level</string>
+    <string name="exp">Erfahrungspunkte</string>
+    <string name="rank">Rang</string>
+    <string name="charactername">Charaktername</string>
+    <string name="empty">---</string>
+    <string name="ton">Ton</string>
+    <string name="kampferklaerung">Kampferklärung</string>
+    <string name="aboutUs">About Us</string>
+    <string name="hilfe">Hilfe</string>
+    <string name="pushup">Pushup</string>
+    <string name="weiter">Weiter</string>
+    <string name="zurueck">Zurück</string>
+    <string name="waffen">Waffen</string>
+    <string name="armor">Rüstungen</string>
+    <string name="items">Items</string>
+    <string name="changeWaffen">Waffe wechseln</string>
+    <string name="changeArmor">Rüstung wechseln</string>
+    <string name="staminaShort">STA</string>
+    <string name="strengthShort">STR</string>
+    <string name="dexterityShort">DEX</string>
+    <string name="intelligenceShort">INT</string>
+    <string name="stamina">Stamina</string>
+    <string name="strength">Strength</string>
+    <string name="dexterity">Dexterity</string>
+    <string name="intelligence">Intelligence</string>
+    <string name="damageShort">DAM</string>
+    <string name="hitchanceShort">HIT</string>
+    <string name="kritchanceShort">KRI</string>
+    <string name="extraShort">EXT</string>
+    <string name="klickItem">Klick auf ein Item, um mehr darüber zu erfahren!</string>
+    <string name="klickAchievement">Klick auf ein Achievement um mehr darüber zu erfahren!</string>
+    <string name="emailAdresse">E-Mail-Adresse</string>
+    <string name="emailAdresseHint">E-Mail-Adresse (xyz@xyz.xyz)</string>
+    <string name="password">Passwort</string>
+    <string name="passwordHint">Passwort (mind 7 Zeichen!)</string>
+    <string name="name">Name</string>
+    <string name="schildQuestion">Schild?</string>
+    <string name="change">Change</string>
+    <string name="benutzen">Benutzen</string>
+    <string name="entfernen">Entfernen</string>
+    <string name="hilfeActivityText">In diesem Spiel wird per GPS ihr Standort ermittelt und auf der Karte dargestellt. In ihren Umfeld befinden sich mehrere "Monster", treffen sie auf eines davon, müssen sie es bekämpfen.</string>
+    <string name="hilfeActivityText2">Im Inventar werden ihre benutzte Waffe, ihre angelegte Rüstung und ihre gesammelten Items dargestellt. Falls sie mehrere Waffen oder Rüstungen gesammelt haben, können sie diese wechseln.</string>
+    <string name="hilfeActivityText3">Unter dem Menüpunkt Ranking, können sie ihr aktuelle Position im Vergleich zu anderen Spielern sehen und ebenso, welche Achievements sie bereits gesammelt haben.</string>
+    <string name="attack">Angriff</string>
+    <string name="def">Schild</string>
+    <string name="powerUp">Power-Up</string>
+    <string name="specialAttack">Special-Angriff</string>
+    <string-array name="sex_array">
+        <item>Männlich</item>
+        <item>Weiblich</item>
+    </string-array>
+    <string-array name="typ_array">
+
+        <item>Bogen</item>
+        <item>Einhandaxt</item>
+        <item>Einhandschwert</item>
+        <item>Armbrust</item>
+        <item>Zauberstab</item>
+        <item>Zwei-Hand-Axt</item>
+        <item>Zwei-Hand-Schwert</item>
+
+    </string-array>
+
+
+    <string name="skillA">AutoAttack</string>
+    <string name="skillDef">Defense</string>
+    <string name="skillPower">Power-UP</string>
+    <string name="skillSpecA">SpecialAttack</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="button_menu">Menü</string>
+
+    <string name="noGPS">Momentan ist kein GPS verfügbar...</string>
+    <string name="title_activity_splash">RATISMON</string>
+
+    <string name="splash_text">RATISMON\nA Location Based Adventure</string>
+
+
+    <string name="title_activity_main">Main</string>
+    <string name="title_activity_anmelden">Anmelden</string>
+    <string name="title_activity_registrieren">Registrieren</string>
+    <string name="title_activity_battle">Battle</string>
+    <string name="title_activity_hilfe">Help</string>
+    <string name="title_activity_chreateCharacter">CreateCharacter</string>
+    <string name="title_activity_inventar">Inventar</string>
+    <string name="title_activity_einstellungen">Einstellungen</string>
+    <string name="title_activity_menue">Menü</string>
+    <string name="title_activity_weaponChange">Waffe wechseln</string>
+    <string name="title_activity_armorChange">Rüstung wechseln</string>
+    <string name="title_activity_ranking">Ranking</string>
+
+
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/anmelden"
+        android:id="@+id/buttonAnmelden"
+        android:background="@color/light_blue_1"
+        android:width="200dp"
+        android:layout_below="@+id/editTextPassword"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registrieren"
+        android:id="@+id/buttonRegistrierenAkt"
+        android:background="@color/light_blue_2"
+        android:width="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editTextEmailAdresse"
+        android:hint="@string/emailAdresse"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/buttonAnmelden"
+        android:layout_alignStart="@+id/buttonAnmelden"
+        android:layout_marginTop="90dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editTextPassword"
+        android:hint="@string/password"
+        android:layout_below="@+id/editTextEmailAdresse"
+        android:layout_alignLeft="@+id/buttonAnmelden" />
+
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/angemeldet_bleiben"
+        android:id="@+id/checkBoxAngemeldetBleiben"
+        android:layout_below="@+id/editTextPassword"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="@string/notregisteredText"
+        android:id="@+id/textViewNotRegistered"
+        android:gravity="center"
+        android:layout_above="@+id/buttonRegistrierenAkt"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:id="@+id/textViewDiskurs"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_below="@+id/editTextPassword"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
