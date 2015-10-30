@@ -33,8 +33,8 @@ public class AnmeldenActivity extends Activity implements AnmeldenTask.AnmeldenT
     private TextView diskurs;
     private CharacterdataDatabase characterdataDb;
     private StatsDatabase statsDb;
-    private String address = "http://sruball.de/game/checkAnmelden.php";
-    private String address2 = "http://sruball.de/game/syndicateData.php";
+    private String address = "http://sruball.de/Ratismon/checkAnmelden.php";
+    private String address2 = "http://sruball.de/Ratismon/syndicateData.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

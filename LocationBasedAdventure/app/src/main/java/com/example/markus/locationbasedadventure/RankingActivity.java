@@ -86,8 +86,8 @@ public class RankingActivity extends Activity implements LoadRankingTask.Ranking
     private AchievementDatabase achievementDb;
     private CharacterdataDatabase characterdataDb;
     private StatsDatabase statsDb;
-    private String address = "http://sruball.de/game/getRanking.php";
-    private String address2 = "http://sruball.de/game/syndicateData.php";
+    private String address = "http://sruball.de/Ratismon/getRanking.php";
+    private String address2 = "http://sruball.de/Ratismon/syndicateData.php";
 
 
     @Override

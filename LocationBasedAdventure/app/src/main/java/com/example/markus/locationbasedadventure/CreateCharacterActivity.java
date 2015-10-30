@@ -41,7 +41,7 @@ public class CreateCharacterActivity extends Activity implements CreateCharacter
     private ItemDatabase itemDb;
     private AchievementDatabase achievementDatabase;
     private String sexTyp = "Maennlich";
-    private String address = "http://sruball.de/game/updateCreateCharacter.php";
+    private String address = "http://sruball.de/Ratismon/updateCreateCharacter.php";
     private String usernr ="";
     private String TAG_USERNR = "USERNR";
 

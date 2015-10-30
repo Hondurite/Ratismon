@@ -25,7 +25,7 @@ public class SplashActivity extends Activity {
     private ArmorDatabase armorDb;
     private ItemDatabase itemDb;
 
-    private String address2 = "http://sruball.de/game/syndicateData.php";
+    private String address2 = "http://sruball.de/Ratismon/syndicateData.php";
 
 
     @Override

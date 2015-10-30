@@ -32,7 +32,7 @@ public class RegistrierenActivity extends Activity implements RegistrierenTask.R
     private CharacterdataDatabase characterdataDb;
     private String TAG_USERNR = "USERNR";
     private String emailToRemember;
-    private String address = "http://sruball.de/game/insertIntoAnmeldedaten.php";
+    private String address = "http://sruball.de/Ratismon/insertIntoAnmeldedaten.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
